@@ -1,0 +1,14 @@
+html, 
+body,
+#root {
+  height: 100%;
+  width: 100%;
+}
+#root {
+  overflow-x: hidden;
+}
+@media screen and (max-width: 767px) {
+  input, select, textarea {
+    font-size: 16px;
+  }
+}
